@@ -1,0 +1,44 @@
+# Working with Altera Quartus II (Q2) and do proper versioning is not that easy
+
+#########################################################################################################
+##	This is an example .gitignore file for Vivado, please treat it as an example as 
+##	it might not be complete. In addition, XAPP 1165 should be followed.
+#########################################################################################################
+#########
+#Exclude all
+#########
+*
+!*/
+!.gitignore
+###########################################################################
+##	VIVADO
+###########################################################################
+#########
+#Source files:
+#########
+#Do NOT ignore VHDL, Verilog, block diagrams or EDIF files.
+!*.vhd
+!*.v
+#!*.bd
+#!*.edif
+!**/modelsim/*.vhd
+!**/modelsim/*.do
+!**/modelsim/*.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
