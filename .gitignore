@@ -25,6 +25,7 @@
 !**/modelsim/*.do
 !**/modelsim/*.txt
 !**/circuito*.pdf
+!**/*.do
 
 
 
