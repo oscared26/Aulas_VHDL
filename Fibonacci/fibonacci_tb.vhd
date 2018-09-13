@@ -37,7 +37,11 @@ begin
 
 	clk<=not clk after 20 ns;
 
+
+
 	rst<='1','0' after 30 ns;
+
+
 
 
 

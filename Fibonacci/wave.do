@@ -5,7 +5,7 @@ add wave -noupdate /fibonacci_tb/rst
 add wave -noupdate -color {Medium Orchid} -radix unsigned -radixshowbase 1 /fibonacci_tb/DUT/old_value
 add wave -noupdate -radix unsigned -radixshowbase 1 /fibonacci_tb/DUT/new_value
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {11134 ps} 0}
+WaveRestoreCursors {{Cursor 1} {397248 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100
@@ -21,4 +21,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ps
 update
-WaveRestoreZoom {0 ps} {392402 ps}
+WaveRestoreZoom {0 ps} {1050 ns}
